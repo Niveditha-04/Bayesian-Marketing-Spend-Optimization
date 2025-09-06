@@ -40,3 +40,5 @@ if (!dir.exists("data_raw")) dir.create("data_raw", recursive = TRUE)
 readr::write_csv(df, "data_raw/marketing_sim.csv")
 
 message("Simulated dataset written to data_raw/marketing_sim.csv with ", nrow(df), " rows.")
+
+write.csv(df, file = "~/Downloads/marketing_sim_dataset.csv", row.names = FALSE)
