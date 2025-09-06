@@ -1,0 +1,26 @@
+## .gitignore
+
+```gitignore
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Rprofile
+.Rproj
+
+# renv
+renv/staging/
+renv/library/
+renv.lock
+
+# Outputs & local DBs
+data_raw/
+data_clean/
+data_sqlite/
+outputs/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
